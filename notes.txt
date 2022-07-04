@@ -1,0 +1,215 @@
+
+** Everything in python is Object ***
+** Every object contain methods ******
+
+number
+-------
+number can be integer or decimal or octal or hexa.
+
+aval = 10
+bval = 23.32
+
+
+string
+--------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "unix shell scripting"
+cname = '''java programming'''
+dname = """scala programming"""
+
+
+list
+-------
+list contains set of elements.
+Elements can be set of numbers or strings or any combination.
+list elements are defined in [].
+
+alist = [10,20,30]
+blist = ["java","python","oracle"]
+
+
+
+tuple  ( read only , immutable , unchangeable)
+------
+tuple contains set of elements.
+Elements can be set of numbers or strings or any combination.
+tuple elements are defined in ().
+**** Elements inside tuple CAN't be modified directly ****
+
+atup = (34,32,35)
+btup = ("c","java","python programming")
+
+
+
+
+dictionary
+-----------
+dictionary contains elements in key:value pairs
+In dictionary,
+  keys is integer or string  which is used to uniquely identify the value
+  values can be integer or string or list or tuple or dictionary or any other complex structure.
+
+syntax:    object = {key:value , key:value , key:value}
+example:    book  = {"chap1":10 , "chap2":20 ,"chap3":30 }
+            book  = {"chap1":10 , "chap2":20 ,"chap3":30 ,"chap1":100}  
+            values = {1:2,3:4,5:6}         
+            values = {1:"python",3:"java",5:"unix"} 
+            book  = {"chap1":[10,"Rita","US"] , "chap2":[20,"Gita","IND"])
+
+
+
+
+set
+-------
+set is unordered collection of unique values of same type.
+
+
+aset = {10,10,20,30,30,30}
+bset = {30,30,30,40,40,50}
+
+
+
+
+
+C
+----
+
+int a = 10 , b = 5 ;
+
+if ( a < b )
+{
+     ##
+     ##
+}
+else
+{ 
+     #
+     #
+}
+
+
+
+python
+--------
+
+a = 10
+b = 5
+if a < b :
+    ##your logical statements
+    ##
+    ##
+else:
+    ##
+    ##
+
+
+
+level1
+level1
+level1
+level1
+if cond:
+     level2
+     level2
+     level2
+else:
+     level2
+     level2
+     level2
+level1
+level1
+level1
+     
+
+1 to 10
+--------
+
+for ( int i = 1; i <=10 ; i++ )
+{  
+     ##
+}
+
+
+python
+----------
+
+
+for i in range(1,11):
+    print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
