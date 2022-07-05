@@ -147,6 +147,178 @@ for i in range(1,11):
 
 
 
+operators
+-----------
+
+
+arithemtic operators :  + - *  % /
+
+
+assignment operators : ( ++ and -- are NOT allowed in python )
+-----------------------
+
+val = 10
+val = val + 1    or val+=1
+val = val - 1    or val-=1
+val = val * 1    or val*=1
+
+
+logical operators
+------------------
+
+&&   ---->  and
+||   ---->  or
+!    -----> not
+
+
+name = "python"
+if len(name) == 6   and name.isupper():
+    # your logic
+
+
+name = "python"
+if len(name) == 6   or name.isupper():
+    # your logic
+
+
+if not name.isupper():
+    # your logic
+
+
+relational operators
+-----------------------
+< <= > >=  == !=
+
+special operators
+------------------
++
+*
+in
+as
+
+
+library | packages
+--------------------
+
+385000+ libraries  in www.pypi.org
+
+
+
+
+file handling
+---------------
+read mode
+write mode
+append mode
+
+
+opening the file
+---------------
+
+
+syntax:   object  = open(filename,mode)
+example:    fobj  = open("customers.txt","r")   ---> read mode
+
+example:    fobj  = open("customers.txt","w")   ----> write mode
+            case1 :If file is not existing.. file gets created first
+            case2 :if file is already existing... it overwrites the existing content and then writes to the file
+
+example:    fobj  = open("customers.txt","a")
+            case1 :If file is not existing.. file gets created first
+            case2 :if file is already existing... it appends(adds) the existing content and then writes to the file
+
+
+
+read operation
+---------------------
+
+- reading line by line using fobj
+- fobj.readlines()
+- fobj.read()
+- using csv library
+- using pandas library
+
+
+
+exception handling
+---------------------
+
+1. syntax error
+2. semantic error or runtime error
+
+
+Handling the errors in runtime is known as exception handling.
+
+keywords in exception handling
+--------------------------------
+try
+except
+else
+finally
+raise
+
+
+
+try
+except
+else    ( optional)
+finally ( optional)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
