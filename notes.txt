@@ -329,14 +329,21 @@ All the packages are availalbe in www.pypi.org
 
 builtin libraries
 ------------------
-All the builtin libraries which are generally used by everyone are installed with python.
+All the builtin libraries which are generally used( OS level operations, math operations , emails , string manipulations , date and time... ) by everyone are installed with python.
 
 
 third party libraries
 ----------------------
 Depending on the requirement (  cloud automation ,  oracle db automation , machine learning , excel operations....)
-developer has to install the third party library from www.pypi.org
+developer has to install the third party library from www.pypi.org or pip tool
 -third party libraries are NOT available by default.Developer has to install it.
+
+
+installing third party library
+---------------------------------
+- download from pypi.org and install
+- using pip tool ( pip.exe is installed with python itself)
+
 
 automation
 -----------
@@ -388,6 +395,134 @@ insert into realestate values('MG Road','Pune');
 display all the records
 -------------------------
 select * from realestate;
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+write a program to read 'realestate.csv' and insert street and city columns data to the database with exception handling
+
+
+---------------------------------------------------------------------------------------------------------------------
+
+write a program to connect to realestate table and write all the records in database to the file  ( 07072022.csv )
+
+---------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+Object oriented programming language
+---------------------------------------
+Any language can be called as Object oriented language if it obeys the below principles
+
+
+OOP principles ( common for all the languages like java .. .net... python. .. ruby... golang... )
+-------------------------------------------------------------------------------------------------
+class and object
+encapsulation- data hiding
+inheritance
+polymorphism
+abstraction
+
+
+
+automation task
+------------------
+
+- procedural style ( top downn approach)
+- object oriented style
+
+
+
+class :  class is like the blueprint of the house.
+         Every class contains data members(attributes)and member functions(mehtods) .
+
+
+object : object is instance of the class.
+         Every object shares the same methods of the class.
+
+self   : self is instance of the object.
+         self is the first argument in the methods defined in the class.
+
+
+constructor :  In python , constructor is defined with __init__()
+               constructor is invoked automatically when the object is created.
+               constructor is generally used to intialize the values.
+
+
+
+
+
+
+
+
+
+
+alist = [10,20,30]
+
+blist = [30,40,50]
+
+internal implementation
+-------------------------
+
+class List:
+    def append():
+       ###
+    def extend():
+       ##
+    def insert()
+       ##
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
