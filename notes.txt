@@ -273,6 +273,225 @@ finally ( optional)
 
 
 
+C
+---
+
+function | definition | subroutine 
+----------------------------------
+-reusability
+- define the block once and call it for multiple times.
+
+
+
+void add(int a,int b)
+{
+   int c = a+ b;
+   printf("%d",c);
+}
+
+
+add(10,20);
+
+python
+-------
+def add(a,b):
+    c = a+b
+    print(c)
+
+add(10,20)
+
+different ways of passing arguments
+-------------------------------------
+
+fixed arguments
+default arguments
+variable length arguments
+
+
+
+
+
+c header files
+-----------------
+#include<stdio.h>
+#include<math.h>
+#include<graphics.h>
+#include<conio.h>
+#include<string.h>
+#include<stdmanip.h>
+
+python 
+
+library | module | package
+-----------------------------
+All the packages are availalbe in www.pypi.org
+
+
+builtin libraries
+------------------
+All the builtin libraries which are generally used by everyone are installed with python.
+
+
+third party libraries
+----------------------
+Depending on the requirement (  cloud automation ,  oracle db automation , machine learning , excel operations....)
+developer has to install the third party library from www.pypi.org
+-third party libraries are NOT available by default.Developer has to install it.
+
+automation
+-----------
+
+one file -  delete manually
+
+
+100 files -
+
+
+you have to delete 5 files on hourly basis( 24 hours) X 365 
+
+
+
+
+mysql
+--------
+
+display all existing databases
+------------------------------
+show databases;
+
+
+creating database
+--------------------
+create database information;
+
+
+access database
+----------------
+use information;
+
+
+display all tables ( initially empty )
+---------------------------------------
+show tables;
+
+creating table
+---------------
+create table realestate ( street varchar(100) , city varchar(100) );
+
+
+inserting records
+-----------------
+insert into realestate values('HitechCity','Hyderabad');
+insert into realestate values('MG Road','Pune');
+
+
+display all the records
+-------------------------
+select * from realestate;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
