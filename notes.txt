@@ -501,6 +501,59 @@ class List:
 
 
 
+re library
+------------
+
+regular expressions
+-powerful library 
+
+- search the pattern in the file
+- match the pattern in the file ( only at the beginning)
+- sub  ( substitute )
+- findall() the patterns
+
+
+
+re.search()
+re.match()
+re.sub()
+re.findall()
+re.split()
+
+
+
+The power of re library is based on metacharacters or wildcard characters
+---------------------------------------------------------------------------
+
+wildcard characters or metacharacters
+---------------------------------------
+^  $  * +  ?   .  () [] {}  \d  \s \w
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
